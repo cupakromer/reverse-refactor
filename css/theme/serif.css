@@ -4,6 +4,24 @@
  *
  * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
  */
+.reveal table {
+  margin: auto;
+}
+
+.reveal table th {
+  font-weight: bold;
+  border-bottom: solid 1px #ddd;
+}
+
+.reveal table td {
+  font-size: .7em;
+}
+
+.reveal table th:last-of-type, .reveal table td:last-of-type {
+  border-left: solid 1px #ddd;
+  padding-left: 20px;
+}
+
 .reveal a:not(.image) {
   line-height: 1.3em; }
 
