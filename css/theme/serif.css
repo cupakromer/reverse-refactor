@@ -7,6 +7,18 @@
 .reveal a:not(.image) {
   line-height: 1.3em; }
 
+.reveal section img.emoji {
+  margin: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
